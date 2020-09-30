@@ -13,7 +13,6 @@ import {
   CyclicJsonInterceptorModule,
   HttpInterceptorModule,
 } from "@seniorsistemas/platform-components";
-import { HotkeyModule } from "angular2-hotkeys";
 
 @NgModule({
   declarations: [AppComponent],
@@ -22,7 +21,6 @@ import { HotkeyModule } from "angular2-hotkeys";
     BrowserAnimationsModule,
     CyclicJsonInterceptorModule,
     HttpInterceptorModule,
-    HotkeyModule.forRoot(),
     AppRoutingModule,
     TableModule,
     PanelModule,

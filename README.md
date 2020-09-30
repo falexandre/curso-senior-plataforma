@@ -13,23 +13,26 @@
 	"dependencies": {}
 ```
 - npm i
-- Ajustar polyfills.ts
+- Ajustar src/polyfills.ts
 - Ajustar tslint.json
 - Ajustar tsconfig.json
 - Ajustar angular.json
   - garantir que  "aot": true,
   - add styles e script
-- Criar o server.ts
+- Criar o server.js
+
+- npm start
+
+
 - Ajustar scripts package.json
 - Ajustart arquivo hosts [Tutorial](https://tecnoblog.net/199539/editar-arquivo-hosts-windows/)
   - 127.0.0.1   <NOME_DA_SUA_MAQUINA>.senior.com.br
 - Tecnologia > customização > aplicativos
 - Tecnologia > Menus e telas
 
-
-https://git.senior.com.br/gestao-pessoas/payroll-admission-frontend/-/tree/develop/src/app/features/employee-container/employee-list
-
-
-https://platform-homologx.senior.com.br 
-Usuário: admin@trn07444157.com.br
-Senha: YwVvzpLu
+1 - Baixar ou clonar o projeto https://github.com/falexandre/curso-senior-plataforma
+2 - npm install -g @angular/cli@8.3.29
+3 - entrar na pasta do passo 1 e abrir powershell
+4 - efetuar a instalação: npm install
+5 - Ajustar o arquivo C:\Windows\System32\drivers\etc\hosts adicionar 127.0.0.1   <NOME_DA_SUA_MAQUINA>.senior.com.br
+6 - efetuar inicialização com plataforma logada no navegador padrão com comando: npm start
